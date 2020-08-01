@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style> 
+        /* CSS for Square boxes */ 
+        span { 
+            display: inline-block; 
+            width: 1080px; 
+            height: 300px; 
+            margin: 6px; 
+            background-color: #ffffff; 
+        } 
+
+        #carimage{
+
+            padding-left: 10px;
+        }
+
+        #button{
+            position: absolute;
+    top: 117px;
+    right: 241px;
+        }
+
+        #cont{
+
+            width: 100px;
+  height: 100px;
+  margin-top: -130px;
+    margin-left: 200px;
+        }
+
+        #abc{
+            margin-top: -6px;
+        }
+
+        #abc2{
+            margin-top: -6px;
+
+            
+        }
+
+        #abc3{
+            margin-top: -6px;
+
+            display: inline-block; 
+            width: 50%; 
+            height: 300px; 
+            margin: 6px; 
+            background-color: #ffffff; 
+        }
+
+        #abc4{
+          margin-top: -6px;
+
+          height: 280px;
+    width: 573px;
+        }
+
+        #abc5{
+          margin-top: -6px;
+          height: 280px;
+    width: 573px;
+        }
+
+
+#abc6{
+
+  margin-top: -6px;
+          height: 280px;
+    width: 573px;
+      
+
+}
+
+#abc7{
+
+  margin-top: -6px;
+          height: 280px;
+    width: 573px;
+    
+  
+}
+
+#abc8{
+
+margin-top: 166px;
+          height: 280px;
+    width: 573px;
+  
+
+}
+
+    </style> 
+
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+
+
+    
+      <div class="container">
+
+        <h3 id="dash">Dashboard</h3>
+        <span class="border border-right-0 border-danger">
+            <div>
+                <h2>Hello to My Page</h2>
+                <pre>
+ Ferrari is an Italian luxury sports car manufacturer based in Maranello, Italy. 
+ Founded by Enzo Ferrari in 1939 out of Alfa Romeo's race division as Auto Avio 
+ Costruzioni, the company built its first car in 1940.
+                </pre>
+<img src="car.jpg" id="carimage">
+            </div>
+            <button id="button" class='btn btn-success '> 
+                Button Text 
+                  </button> 
+         
+<div id="cont">
+<h3>Ferrari S.p.A </h3>
+<ul>
+    <li>963254</li>
+    <li>abc@gmail.com</li>
+</ul>
+</div>
+</span>
+      </div>
+
+    
+<div class="container">
+    <span id ="abc" class="border border-top-0 border-danger "> 
+
+<hr>
+    <div class="container" id ="grid1">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="card text-center">
+                <div class="card-block">
+                    
+                  <div>
+                      <div class="card-title">
+                        <h4>hfdfds</h4>
+                      </div>
+  
+                      <div class="card-text"> this is some simple text</div>
+                    
+                    <br>
+                    <br>
+                      <a href="#" class='btn btn-success '> click here</a>
+
+                      <br>
+                      <br>
+                    </div>
+                </div>
+            </div>
+  
+          </div>
+
+
+          <div class="col-md-3 col-sm-6">
+            <div class="card text-center">
+                <div class="card-block">
+                    
+                  <div>
+                      <div class="card-title">
+                        <h4>hfdfds</h4>
+                      </div>
+  
+                      <div class="card-text"> this is some simple text</div>
+                    
+                    <br>
+                    <br>
+                      <a href="#" class='btn btn-success '> click here</a>
+                      <br>
+                      <br>
+                    </div>
+                </div>
+            </div>
+  
+          </div>
+
+
+          <div class="col-md-6 col-sm-6">
+            <div class="card text-center">
+                <div class="card-block">
+                    
+                  <div>
+                      <div class="card-title">
+                        <h4>hfdfds</h4>
+                      </div>
+  
+                      <div class="card-text"> this is some simple text</div>
+                    
+                    <br>
+                    <br>
+                      <a href="#" style="background-color: #ffffff;color: #00ff08; margin-left: -345px;"> click here</a>
+                      <br>
+                      <br>
+                      <br>
+                    </div>
+                </div>
+            </div>
+  
+          </div>
+
+        </div>
+    </div>
+</span>
+
+</div>
+
+
+<div class="container">
+  <span  id="abc7" class="border border-danger"></span> 
+</div>
+
+
+<div style="width: 583px; float:left; height:100px; background:white margin:10px ;margin-left: 81px">
+
+  <span  id="abc7" class="border border-danger"></span> 
+  </div>
+  <div style="width: 100px; float:left; height:100px; background:white; margin:10px">
+    <span  id="abc7" class="border border-danger"></span> 
+  </div>
+
+
+
+  <div class="container">
+    <span id="abc8" class="border border-danger"></span> 
+  </div>
+  
+
+  
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
+                
